@@ -11,8 +11,10 @@ export default [
   {
     title: "Me",
     items: [
+      {title: "Documents", path: "/wiki-docs", permission: "wiki.edit"},
       {title: "Lists", path: "/lists", permission: "lists.read"},
-      {title: "Passwords", path: "/passec/buckets", permission: "passec.read"}
+      {title: "Passwords", path: "/passec/buckets", permission: "passec.read"},
+      {title: "Personal wiki", path: "/wiki/index-private", permission: "wiki.edit"},
     ]
   },
   {
