@@ -21,7 +21,7 @@ export default [
     title: "Shared",
     items: [
       {title: "Files", path: "/files", permission: "file.read"},
-      {title: "Wiki", path: "/wiki", permission: "wiki.read"}
+      {title: "Wiki", path: "/", permission: "wiki.read"}
     ]
   },
   {
