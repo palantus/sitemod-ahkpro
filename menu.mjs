@@ -12,6 +12,7 @@ export default [
     title: "Me",
     items: [
       {title: "Documents", path: "/wiki-docs", permission: "wiki.edit"},
+      {title: "Files", path: "/files/mine", permission: "file.read"},
       {title: "Lists", path: "/lists", permission: "lists.read"},
       {title: "Passwords", path: "/passec/buckets", permission: "passec.read"},
       {title: "Personal wiki", path: "/wiki/index-private", permission: "wiki.edit"},
@@ -20,7 +21,7 @@ export default [
   {
     title: "Shared",
     items: [
-      {title: "Files", path: "/files", permission: "file.read"},
+      {title: "Files", path: "/files/shared", permission: "file.read"},
       {title: "Wiki", path: "/wiki", permission: "wiki.read"}
     ]
   },
