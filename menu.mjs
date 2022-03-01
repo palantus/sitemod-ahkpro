@@ -12,6 +12,7 @@ export default [
     title: "Me",
     items: [
       {title: "Documents", path: "/wiki-docs", permission: "wiki.edit"},
+      {title: "Drop", path: "/drop", permission: "file.edit"},
       {title: "Files", path: "/files/mine", permission: "file.read"},
       {title: "Lists", path: "/lists", permission: "lists.read"},
       {title: "Passwords", path: "/passec/buckets", permission: "passec.read"},
