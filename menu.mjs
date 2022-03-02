@@ -4,7 +4,7 @@ export default [
     public: true,
     hideWhenSignedIn: true,
     items: [
-      {title: "Home", path: "/", public: true},
+      {title: "Home", path: "/wiki", public: true},
       {title: "Sign in", path: "/login", public: true}
     ]
   },
