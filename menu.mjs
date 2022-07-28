@@ -31,6 +31,7 @@ export default [
     role: "team",
     items: [
       {title: "API keys", path: "/system/apikeys", permission: "admin"},
+      {title: "Federation", path: "/setup/federation"},
       {title: "File sources", path: "/filesources", permission: "file.source.manage"},
       {title: "Jobs", path: "/setup/jobs", permission: "admin"},
       {title: "Logs", path: "/logs", permission: "admin"},
